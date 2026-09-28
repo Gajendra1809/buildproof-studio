@@ -1,5 +1,6 @@
 import { Container } from "./ui/Container";
 import { Logo } from "./Logo";
+import { SocialLinks } from "./SocialLinks";
 
 const links = [
   { href: "#how-it-works", label: "How it works" },
@@ -17,6 +18,7 @@ export function Footer() {
           <p className="mt-2 max-w-xs text-sm text-ink-400">
             Turn your software idea into something real.
           </p>
+          <SocialLinks className="mt-5" />
         </div>
         <nav aria-label="Footer">
           <ul className="flex flex-col gap-2 sm:items-end">

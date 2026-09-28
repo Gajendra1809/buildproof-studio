@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Button } from "./ui/Button";
 import { Container } from "./ui/Container";
 import { Logo } from "./Logo";
+import { SocialLinks } from "./SocialLinks";
 
 const links = [
   { href: "#how-it-works", label: "How it works" },
@@ -97,6 +98,7 @@ export function Header() {
               <Button href="#contact" className="w-full">
                 Build My Prototype
               </Button>
+              <SocialLinks className="mt-4" />
             </div>
           </nav>
         </div>
